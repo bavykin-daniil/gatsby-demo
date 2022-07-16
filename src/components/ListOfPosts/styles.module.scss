@@ -1,0 +1,29 @@
+.posts {
+  padding: 40px 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.title {
+
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: space-between;
+  justify-items: center;
+  grid-gap: 20px;
+  grid-auto-flow: row dense;
+}
+
+.item {
+  width: 100%;
+}
