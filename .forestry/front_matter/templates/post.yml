@@ -38,5 +38,6 @@ fields:
   default: "/uploads/nodata.jpg"
 pages:
 - content/posts/firstpost.md
+- content/posts/fourpost.md
 - content/posts/secondpost.md
 - content/posts/thirdpost.md
