@@ -45,7 +45,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-  hidden: true
+  hidden: false
 pages:
 - content/posts/firstpost.md
 - content/posts/fivepost.md
