@@ -36,6 +36,16 @@ fields:
     maxSize: 64
   label: preview image
   default: "/uploads/nodata.jpg"
+- name: dateofcreate
+  type: datetime
+  label: dateOfCreate
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
 pages:
 - content/posts/firstpost.md
 - content/posts/fivepost.md
