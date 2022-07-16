@@ -9,6 +9,13 @@ fields:
     min: 1
     max: 256
   label: title
+- name: url
+  type: text
+  config:
+    required: false
+    min: 1
+    max: 256
+  label: url
 - name: pagetitle
   type: text
   config:
@@ -29,10 +36,3 @@ fields:
     maxSize: 64
   label: preview image
   default: "/uploads/nodata.jpg"
-- name: url
-  type: text
-  config:
-    required: false
-    min: 1
-    max: 256
-  label: url
