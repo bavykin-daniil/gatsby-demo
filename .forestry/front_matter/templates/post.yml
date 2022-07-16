@@ -47,6 +47,7 @@ fields:
     display_utc: false
   hidden: true
 pages:
+- content/posts/firstpost-copy.md
 - content/posts/firstpost.md
 - content/posts/fivepost.md
 - content/posts/fourpost.md
