@@ -5,6 +5,7 @@ $border-radius: 10px;
 .post {
   display: flex;
   flex-direction: column;
+  height: 100%;
   border-radius: $border-radius;
   box-shadow: 0 0 5px 0 $scorpion-shadow;
 }
@@ -12,12 +13,22 @@ $border-radius: 10px;
 .image {
   border-top-left-radius: $border-radius;
   border-top-right-radius: $border-radius;
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
 }
 
 .body {
+  flex: 1;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   padding: 15px 10px 10px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
 }
 
 .title {

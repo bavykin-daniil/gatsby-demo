@@ -14,8 +14,10 @@ const PostItem = ({ post }) => {
       />
 
       <div className={styles.body}>
-        <span className={styles.title}>{post.pagetitle}</span>
-        <span className={styles.description}>{post.description}</span>
+        <div className={styles.textContent}>
+          <span className={styles.title}>{post.pagetitle}</span>
+          <span className={styles.description}>{post.description}</span>
+        </div>
 
         <div className={styles.linkContainer}>
           <Link className={styles.link} to={post.url}>

@@ -1,5 +1,5 @@
 ---
-preview_image: "/static/uploads/post.jpg"
+preview_image: "/uploads/post.jpg"
 title: ThirdPost
 url: thirdPost
 pagetitle: Third post

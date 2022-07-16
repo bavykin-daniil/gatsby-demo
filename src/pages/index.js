@@ -1,9 +1,10 @@
 //general
 import React from "react"
+//templates
+import ListOfPosts from "../templates/ListOfPosts/ListOfPosts"
 //components
 import Layout from "../components/Layout/Layout"
 import Seo from "../components/seo"
-import ListOfPosts from "../components/ListOfPosts/ListOfPosts"
 
 const IndexPage = () => (
   <Layout>
