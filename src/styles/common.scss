@@ -1,0 +1,50 @@
+html {
+  font-family: 'Comfortaa', cursive;
+  color: $scorpion-color;
+}
+
+a {
+  color: $scorpion-color;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.375em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+@media screen and (min-width: $xs) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $sm) {
+
+}
+
+@media screen and (min-width: $md) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: $lg) {
+
+}
+
+@media screen and (min-width: $xl) {
+  html {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.header {
+  display: flex;
+  padding: 15px 10px;
+  box-shadow: 0 0 11px 0 $scorpion-shadow;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logoImage {
+  width: 80px;
+}
+
+@media screen and (max-width: $md) {
+  .logoImage {
+    width: 50px;
+  }
+}
