@@ -36,3 +36,5 @@ fields:
     maxSize: 64
   label: preview image
   default: "/uploads/nodata.jpg"
+pages:
+- content/posts/firstpost.md
