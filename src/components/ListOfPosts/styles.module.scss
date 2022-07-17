@@ -1,0 +1,70 @@
+@import "../../styles/variables";
+
+.posts {
+  padding: 40px 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.title {
+
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  justify-content: space-between;
+  justify-items: center;
+  grid-gap: 20px;
+  grid-auto-flow: row dense;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+  &.all {
+    justify-content: space-between;
+  }
+
+  &.prev {
+    justify-content: flex-start;
+  }
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+  font-size: 14px;
+
+  &::after {
+    content: '';
+    transform: scaleX(0);
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: $scorpion-color;
+    transition: 0.5s;
+  }
+
+  &:hover {
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
