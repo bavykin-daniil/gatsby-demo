@@ -28,4 +28,13 @@ exports.createPages = async ({ actions, graphql }) => {
     pathPrefix: "/",
     component: path.resolve(`./src/templates/index.js`),
   })
+
+  posts.data.allMarkdownRemark.nodes.forEach(post => {
+    const { url } = post.frontmatter
+    actions.createPage({
+      path: `/${url}`,
+      component: path.resolve(`./src/templates/Post/Post.jsx`),
+      context: url,
+    })
+  })
 }

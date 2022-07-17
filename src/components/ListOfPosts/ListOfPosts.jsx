@@ -16,8 +16,8 @@ const ListOfPosts = ({ data, pagers }) => {
 
         <ul className={styles.list}>
           {posts.map(post => (
-            <li className={styles.item}>
-              <PostItem post={post.frontmatter} key={post.id} />
+            <li className={styles.item} key={post.id}>
+              <PostItem post={post.frontmatter} />
             </li>
           ))}
         </ul>
