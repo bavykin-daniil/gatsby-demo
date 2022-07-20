@@ -48,8 +48,6 @@ fields:
   hidden: true
   default: now
 pages:
-- content/posts/firstpost.md
-- content/posts/fivepost.md
 - content/posts/fourpost.md
 - content/posts/queryfordatawithgraphql.md
 - content/posts/qwe.md
