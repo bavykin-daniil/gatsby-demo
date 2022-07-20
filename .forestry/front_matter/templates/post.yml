@@ -48,6 +48,7 @@ fields:
   hidden: true
   default: now
 pages:
+- content/posts/forestry-a-cms-for-git-copy.md
 - content/posts/forestry-a-cms-for-git.md
 - content/posts/keeplogosandelementsintact.md
 - content/posts/queryfordatawithgraphql.md
