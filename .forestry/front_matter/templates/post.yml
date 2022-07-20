@@ -49,6 +49,7 @@ fields:
   default: now
 pages:
 - content/posts/alalalal.md
+- content/posts/azaaazaza.md
 - content/posts/forestry-a-cms-for-git-copy.md
 - content/posts/forestry-a-cms-for-git.md
 - content/posts/keeplogosandelementsintact.md
