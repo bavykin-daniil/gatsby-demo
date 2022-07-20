@@ -7,7 +7,7 @@ import PostItem from "./PostItem/PostItem"
 //styles
 import * as styles from "./styles.module.scss"
 
-const ListOfPosts = ({ data, pagers }) => {
+const ListOfPosts = ({ data, pagers }, props) => {
   const posts = data
   return (
     <section className={styles.posts}>

@@ -20,7 +20,7 @@ const PostItem = ({ post }) => {
         </div>
 
         <div className={styles.linkContainer}>
-          <Link className={styles.link} to={post.url}>
+          <Link className={styles.link} to={`/${post.url}`}>
             Read more
           </Link>
         </div>
