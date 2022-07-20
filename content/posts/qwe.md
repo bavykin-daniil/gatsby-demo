@@ -1,7 +1,7 @@
 ---
 preview_image: "/uploads/about_gatsby_thumbnail_2.png"
 dateofcreate: 2022-07-16T21:30:51.000+00:00
-title: GatsbyBuildBeautifulSite
+title: GatsbyBuild
 url: building-beautiful-sites
 pagetitle: Building Beautiful Sites With Gatsby
 description: With Gatsby, it's easy to create beautifully-designed, reusable components,
