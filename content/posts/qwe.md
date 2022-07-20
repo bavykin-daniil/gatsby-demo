@@ -18,7 +18,7 @@ Beauty means the right building blocks, assembled correctly. Beauty requires cre
 
 Because Gatsby is built on React, you can easily integrate component-based design systems into your website development process. Forget reinventing the wheel in five different CMS frameworks — with a component library, your design team can focus on creating one beautiful version of each component, which your development team can then use everywhere.
 
-![](/uploads/about_react_thumbnail_1.png)
+![](/static/uploads/about_react_thumbnail_1.png)
 
 ### Easily create clean, consistent typography
 
@@ -26,4 +26,4 @@ Crafting a look and feel that’s consistent and reflects brand personality is k
 
 With Gatsby’s built-in Typography.js integration, it’s easy for designers and developers to collaborate on header ratios, font size and line spacing rhythm across your whole site, while preventing text styling from devolving into a series of one-off CSS modifications without a coherent theme.
 
-![](/uploads/images.jpeg)
+![](/static/uploads/images.jpeg)
