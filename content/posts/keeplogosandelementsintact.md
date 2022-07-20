@@ -1,5 +1,5 @@
 ---
-preview_image: "/static/uploads/someone.png"
+preview_image: "/static/uploads/nodata.jpg"
 dateofcreate: 2022-07-20T17:24:20Z
 title: keepLogosAndElementsIntact
 url: keepLogos
