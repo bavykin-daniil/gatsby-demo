@@ -48,7 +48,6 @@ fields:
   hidden: true
   default: now
 pages:
-- content/posts/123123.md
 - content/posts/alalalal.md
 - content/posts/azaaazaza.md
 - content/posts/forestry-a-cms-for-git-copy.md
